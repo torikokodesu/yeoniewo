@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>⌗a.i </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+<div class="container">
+    <div class="left-container">
+        <div class="gif">
+            <img src="milk.png" alt="milk png"/>
+        </div>
+    </div>
+
+    <div class="right-container">
+        <div class="head">
+            <p>> 帰る<span class="blinking">ᶻz</span></p>
+        </div>
+
+        <div class="bookmarks">
+            <div class="category">
+                <ul>
+                    <li class="title">work</li>
+                    <li>
+                        <a href="https://gmail.com">gmail</a>
+                    </li>
+                    <li>
+                        <a href="https://www.notion.so/torikoko-me/Torispace-edu-9133f0d0543f4a3ea060d6ab3d305150">aiᶻz</a>
+                    </li>
+                    <li>
+                        <a href="https://discord.com/channels/944990221655748678/944990272801107968">hamanon cult</a>
+                    </li>
+                    <li>
+                        <a href="https://www.office.com/launch/word?ui=en-US&rs=US&auth=1">word</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="category">
+                <ul>
+                    <li class="title">torispace</li>
+                    <li>
+                        <a href="https://github.com/">github</a>
+                    </li>
+                    <li>
+                        <a href="https://instagram.com/">instagram</a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/">twitter</a>
+                    </li>
+                    <li>
+                        <a href="https://pinterest.com/">pinterest</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="category">
+                <ul>
+                    <li class="title">
+                        <a href="https://reddit.com">reddit</a>
+                    </li>
+                    <li>
+                        <a href="https://reddit.com/r/notion/">notion</a>
+                    </li>
+                    <li>
+                        <a href="https://reddit.com/r/rainmeter/">rainmeter</a>
+                    </li>
+                    <li>
+                        <a href="https://reddit.com/r/unixporn/">unixart</a>
+                    </li>
+                    <li>
+                        <a href="https://reddit.com/r/startpages/">sp</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="category">
+                <ul>
+                    <li class="title">play</li>
+                    <li>
+                        <a href="https://monkeytype.com/">monkeytype</a>
+                    </li>
+                    <li>
+                        <a href="https://youtube.com/">youtube</a>
+                    </li>
+                    <li>
+                        <a href="https://open.spotify.com/">spotify</a>
+                    </li>
+                    <li>
+                        <a href="https://deviantart.com/">devart</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="search">
+            <label for="googleSearch"></label>
+            <input type="text" id="googleSearch" placeholder="Search..." autofocus/>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.getElementById("googleSearch").addEventListener("keydown", ({key}) => {
+        if (key === "Enter") {
+            let s = "https://www.google.com/search?q=";
+            s += document.getElementById("googleSearch").value;
+            window.location.href = s;
+        }
+    });
+</script>
+
+</body>
+</html>

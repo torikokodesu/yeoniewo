@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    background: #282828;
+    font-family: "scientifica", monospace;
+    color: #EADBB2;
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 460px 600px 1fr;
+    grid-template-areas: ". left right .";
+    column-gap: 80px;
+    justify-items: center;
+    align-items: center;
+    min-height: 100%;
+}
+
+.left-container {
+    grid-area: left;
+    aspect-ratio: 1/1;
+}
+
+.right-container {
+    grid-area: right;
+    height: 50%;
+    width: fit-content;
+}
+
+.png img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 40px;
+    padding-top: 60px;
+    color: #648cc4;
+}
+
+.bookmarks {
+    padding-top: 60px;
+}
+
+.category li {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.title {
+    font-size: 20px;
+}
+
+.title a:link, .title a:visited {
+    color: #f0e8bb;
+}
+
+li {
+    font-size: 16px;
+    list-style-type: none;
+    padding: 5px
+}
+
+li:not(.title)::before {
+    content: ";";
+}
+
+a:link {
+    text-decoration: none;
+    color: #648cc4;
+}
+
+a:visited {
+    color: #D63A3E;
+}
+
+a:hover {
+    color: #648cc4;
+}
+
+.blinking {
+    animation: opacity 1s ease-in-out infinite;
+    opacity: 1;
+
+}
+.search {
+    padding-top: 50px;
+}
+
+.search input#googleSearch {
+    display: block;
+    margin: 0 auto;
+
+    width: 80%;
+    box-sizing: border-box;
+
+    border: 2px solid #EADBB2;
+    border-radius: 4px;
+
+    font-family: inherit;
+    font-size: inherit;
+    font-color: #edcb7b;
+
+    background-color: #383838;
+    background-image: url('search.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+
+    padding: 12px 20px 12px 45px;
+}
+
+.search input#googleSearch:focus {
+    outline: none;
+}
+
+@keyframes opacity {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
