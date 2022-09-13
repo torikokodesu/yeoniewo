@@ -4,7 +4,7 @@
 }
 
 html, body {
-    background: #bed4e5;
+    background: #C1D4E3;
     font-family: "rainyhearts", monospace;
     font-size: large;
     color: #C5E7CD;
@@ -76,15 +76,15 @@ li:not(.title)::before {
 
 a:link {
     text-decoration: none;
-    color: #f6e2e2;
+    color: #F8B3CA;
 }
 
 a:visited {
-    color: #d1d7ec;
+    color: #ffff99;
 }
 
 a:hover {
-    color: #ebd7dd;
+    color: #FADAE2;
 }
 
 .blinking {
