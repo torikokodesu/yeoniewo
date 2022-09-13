@@ -61,7 +61,7 @@ html, body {
 }
 
 .title a:link, .title a:visited {
-    color: #f0e8bb;
+    color: #eee0c9;
 }
 
 li {
@@ -76,15 +76,15 @@ li:not(.title)::before {
 
 a:link {
     text-decoration: none;
-    color: #648cc4;
+    color: #f6e2e2;
 }
 
 a:visited {
-    color: #D63A3E;
+    color: #d1d7ec;
 }
 
 a:hover {
-    color: #648cc4;
+    color: #ebd7dd;
 }
 
 .blinking {
