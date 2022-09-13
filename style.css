@@ -7,7 +7,7 @@ html, body {
     background: #bed4e5;
     font-family: "rainyhearts", monospace;
     font-size: large;
-    color: #bed4e5;
+    color: #C5E7CD;
     height: 100%;
     width: 100%;
 }
@@ -44,7 +44,7 @@ html, body {
     align-items: center;
     font-size: 40px;
     padding-top: 60px;
-    color: #ebd7dd;
+    color: #A1D4AD;
 }
 
 .bookmarks {
@@ -61,7 +61,7 @@ html, body {
 }
 
 .title a:link, .title a:visited {
-    color: #eee0c9;
+    color: #ffff99;
 }
 
 li {
