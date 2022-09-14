@@ -4,10 +4,10 @@
 }
 
 html, body {
-    background: #C1D4E3;
+    background: #1b212b;
     font-family: "rainyhearts", monospace;
     font-size: large;
-    color: #C5E7CD;
+    color: #4197d9;
     height: 100%;
     width: 100%;
 }
@@ -61,7 +61,7 @@ html, body {
 }
 
 .title a:link, .title a:visited {
-    color: #ffff99;
+    color: #4197d9;
 }
 
 li {
@@ -80,7 +80,7 @@ a:link {
 }
 
 a:visited {
-    color: #ffff99;
+    color: #f7e89c;
 }
 
 a:hover {
@@ -110,7 +110,7 @@ a:hover {
     font-size: inherit;
     font-color: #edcb7b;
 
-    background-color: #d0e5f5;
+    background-color: #283242;
     background-image: url('search.png');
     background-position: 10px 10px;
     background-repeat: no-repeat;
