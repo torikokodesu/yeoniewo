@@ -4,10 +4,10 @@
 }
 
 html, body {
-    background: #1b212b;
+    background: #302e2d;
     font-family: "rainyhearts", monospace;
     font-size: large;
-    color: #4197d9;
+    color: #84888a;
     height: 100%;
     width: 100%;
 }
@@ -44,7 +44,7 @@ html, body {
     align-items: center;
     font-size: 40px;
     padding-top: 60px;
-    color: #A1D4AD;
+    color: #708a6d;
 }
 
 .bookmarks {
@@ -61,7 +61,7 @@ html, body {
 }
 
 .title a:link, .title a:visited {
-    color: #4197d9;
+    color: #84888a;
 }
 
 li {
@@ -110,7 +110,7 @@ a:hover {
     font-size: inherit;
     font-color: #edcb7b;
 
-    background-color: #283242;
+    background-color: #3c4d52;
     background-image: url('search.png');
     background-position: 10px 10px;
     background-repeat: no-repeat;
